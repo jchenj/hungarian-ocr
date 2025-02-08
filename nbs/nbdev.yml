@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "hungarian-ocr"
+  site-url: "https://jchenj.github.io/hungarian-ocr"
+  description: "Hungarian OCR"
+  repo-branch: main
+  repo-url: "https://github.com/jchenj/hungarian-ocr"
