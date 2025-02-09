@@ -4,69 +4,29 @@
     "href": "index.html",
     "title": "Hungarian Medical Document Translator",
     "section": "",
-    "text": "git clone https://github.com/your-username/hungarian-medical-translator \n\ncd hungarian-medical-translator \n\npip install -e \".[dev]\"",
+    "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
     "crumbs": [
-      "Hungarian Medical Document Translator"
+      "hungarian-ocr"
     ]
   },
   {
-    "objectID": "index.html#developer-guide",
-    "href": "index.html#developer-guide",
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
     "title": "Hungarian Medical Document Translator",
     "section": "",
-    "text": "If you are new to using nbdev here are some useful pointers to get you started.\n\n\n# make sure hungarian_ocr package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to hungarian_ocr\n$ nbdev_prepare",
+    "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
     "crumbs": [
-      "Hungarian Medical Document Translator"
-    ]
-  },
-  {
-    "objectID": "index.html#usage",
-    "href": "index.html#usage",
-    "title": "Hungarian Medical Document Translator",
-    "section": "Usage",
-    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/jchenj/hungarian-ocr.git\nor from conda\n$ conda install -c jchenj hungarian_ocr\nor from pypi\n$ pip install hungarian_ocr\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
-    "crumbs": [
-      "Hungarian Medical Document Translator"
-    ]
-  },
-  {
-    "objectID": "index.html#how-to-use",
-    "href": "index.html#how-to-use",
-    "title": "Hungarian Medical Document Translator",
-    "section": "How to use",
-    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
-    "crumbs": [
-      "Hungarian Medical Document Translator"
-    ]
-  },
-  {
-    "objectID": "core.html",
-    "href": "core.html",
-    "title": "OCR and Document Processing",
-    "section": "",
-    "text": "say_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Ian\")\n\n'Hello Ian!'\n\n\n\nassert say_hello(\"Ian\") == \"Hello Ian!\"\n\n\n\n\ndoc_loading\n\n doc_loading (photo)\n\nLoads the photo\n\nsource\n\n\nfoo\n\n foo ()",
-    "crumbs": [
-      "OCR and Document Processing"
-    ]
-  },
-  {
-    "objectID": "index.html#install-hungarian_ocr-in-development-mode",
-    "href": "index.html#install-hungarian_ocr-in-development-mode",
-    "title": "Hungarian Medical Document Translator",
-    "section": "",
-    "text": "# make sure hungarian_ocr package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to hungarian_ocr\n$ nbdev_prepare",
-    "crumbs": [
-      "Hungarian Medical Document Translator"
+      "hungarian-ocr"
     ]
   },
   {
     "objectID": "index.html#installation",
     "href": "index.html#installation",
     "title": "Hungarian Medical Document Translator",
-    "section": "",
-    "text": "git clone https://github.com/your-username/hungarian-medical-translator \n\ncd hungarian-medical-translator \n\npip install -e \".[dev]\"",
+    "section": "Installation",
+    "text": "Installation\ngit clone https://github.com/your-username/hungarian-medical-translator \n\ncd hungarian-medical-translator \n\npip install -e \".[dev]\"",
     "crumbs": [
-      "Hungarian Medical Document Translator"
+      "hungarian-ocr"
     ]
   },
   {
@@ -76,7 +36,17 @@
     "section": "Useage",
     "text": "Useage\nBasic example of loading and processing a document will be added as functionality is developed.",
     "crumbs": [
-      "Hungarian Medical Document Translator"
+      "hungarian-ocr"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "OCR and Document Processing",
+    "section": "",
+    "text": "say_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Ian\")\n\n'Hello Ian!'\n\n\n\nassert say_hello(\"Ian\") == \"Hello Ian!\"\n\n\n\n\ndoc_loading\n\n doc_loading (photo)\n\nLoads the photo\n\nsource\n\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
     ]
   }
 ]
