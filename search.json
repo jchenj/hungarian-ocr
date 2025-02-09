@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hungarian Medical Document Translator",
+    "section": "",
+    "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "Hungarian Medical Document Translator",
+    "section": "",
+    "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
+    ]
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "Hungarian Medical Document Translator",
+    "section": "Installation",
+    "text": "Installation\ngit clone https://github.com/your-username/hungarian-medical-translator \n\ncd hungarian-medical-translator \n\npip install -e \".[dev]\"",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
+    ]
+  },
+  {
+    "objectID": "index.html#useage",
+    "href": "index.html#useage",
+    "title": "Hungarian Medical Document Translator",
+    "section": "Useage",
+    "text": "Useage\nBasic example of loading and processing a document will be added as functionality is developed.",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
+    ]
+  },
+  {
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "Hungarian Medical Document Translator",
+    "section": "Documentation",
+    "text": "Documentation\nVisit the project docs for more information.\n\nTrying another blockquote.",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "OCR and Document Processing",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Ian\")\n\n'Hello Ian!'\n\n\n\nassert say_hello(\"Ian\") == \"Hello Ian!\"\n\n\nsource\n\n\ndoc_loading\n\n doc_loading (photo)\n\nLoads the photo\n\nsource\n\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "OCR and Document Processing"
+    ]
+  }
+]
