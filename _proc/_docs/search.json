@@ -6,7 +6,7 @@
     "section": "",
     "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
     "crumbs": [
-      "hungarian-ocr"
+      "Hungarian Medical Document Translator"
     ]
   },
   {
@@ -16,7 +16,7 @@
     "section": "",
     "text": "This project helps families coordinate care across language barriers, with a focus on medical documentation. While optimized for medical use cases, the tool can handle general Hungarian-to-English document translation. It provides:\n\nSecure document processing and OCR\nPrivacy-preserving translation\nSide-by-side view of original and translated text\n\nFuture development will include medical terminology optimization and caregiver collaboration features.",
     "crumbs": [
-      "hungarian-ocr"
+      "Hungarian Medical Document Translator"
     ]
   },
   {
@@ -26,7 +26,7 @@
     "section": "Installation",
     "text": "Installation\ngit clone https://github.com/your-username/hungarian-medical-translator \n\ncd hungarian-medical-translator \n\npip install -e \".[dev]\"",
     "crumbs": [
-      "hungarian-ocr"
+      "Hungarian Medical Document Translator"
     ]
   },
   {
@@ -36,7 +36,7 @@
     "section": "Useage",
     "text": "Useage\nBasic example of loading and processing a document will be added as functionality is developed.",
     "crumbs": [
-      "hungarian-ocr"
+      "Hungarian Medical Document Translator"
     ]
   },
   {
@@ -46,7 +46,17 @@
     "section": "",
     "text": "say_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Ian\")\n\n'Hello Ian!'\n\n\n\nassert say_hello(\"Ian\") == \"Hello Ian!\"\n\n\n\n\ndoc_loading\n\n doc_loading (photo)\n\nLoads the photo\n\nsource\n\n\nfoo\n\n foo ()",
     "crumbs": [
-      "core"
+      "OCR and Document Processing"
+    ]
+  },
+  {
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "Hungarian Medical Document Translator",
+    "section": "Documentation",
+    "text": "Documentation\nVisit the project docs for more information.\n\nTrying another blockquote.",
+    "crumbs": [
+      "Hungarian Medical Document Translator"
     ]
   }
 ]

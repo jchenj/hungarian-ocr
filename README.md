@@ -31,3 +31,10 @@ pip install -e ".[dev]"
 
 Basic example of loading and processing a document will be added as
 functionality is developed.
+
+## Documentation
+
+Visit the project [docs](https://jchenj.github.io/hungarian-ocr/) for
+more information.
+
+> Trying another blockquote.
