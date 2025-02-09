@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="A privacy-focused tool designed for translating Hungarian medical documents to English, with emphasis on supporting transnational caregiving.">
+<meta name="description" content="Core functionality for secure processing and text extraction from medical documents. This module handles the initial stage of document processing - converting image-based documents into machine-readable text while maintaining privacy and security considerations.">
 
-<title>Hungarian Medical Document Translator – hungarian-ocr</title>
+<title>OCR and Document Processing – hungarian-ocr</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,11 +104,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Hungarian Medical Document Translator – hungarian-ocr">
-<meta property="og:description" content="A privacy-focused tool designed for translating Hungarian medical documents to English, with emphasis on supporting transnational caregiving.">
+<meta property="og:title" content="OCR and Document Processing – hungarian-ocr">
+<meta property="og:description" content="Core functionality for secure processing and text extraction from medical documents. This module handles the initial stage of document processing - converting image-based documents into machine-readable text while maintaining privacy and security considerations.">
 <meta property="og:site_name" content="hungarian-ocr">
-<meta name="twitter:title" content="Hungarian Medical Document Translator – hungarian-ocr">
-<meta name="twitter:description" content="A privacy-focused tool designed for translating Hungarian medical documents to English, with emphasis on supporting transnational caregiving.">
+<meta name="twitter:title" content="OCR and Document Processing – hungarian-ocr">
+<meta name="twitter:description" content="Core functionality for secure processing and text extraction from medical documents. This module handles the initial stage of document processing - converting image-based documents into machine-readable text while maintaining privacy and security considerations.">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -133,7 +133,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Hungarian Medical Document Translator</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./core.html">OCR and Document Processing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -147,13 +147,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Hungarian Medical Document Translator</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">hungarian-ocr</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./core.html" class="sidebar-item-text sidebar-link">
+  <a href="./core.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">OCR and Document Processing</span></a>
   </div>
 </li>
@@ -167,22 +167,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#installation" id="toc-installation" class="nav-link active" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#useage" id="toc-useage" class="nav-link" data-scroll-target="#useage">Useage</a></li>
+  <li><a href="#say_hello" id="toc-say_hello" class="nav-link active" data-scroll-target="#say_hello">say_hello</a></li>
+  <li><a href="#doc_loading" id="toc-doc_loading" class="nav-link" data-scroll-target="#doc_loading">doc_loading</a></li>
+  <li><a href="#foo" id="toc-foo" class="nav-link" data-scroll-target="#foo">foo</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/jchenj/hungarian-ocr/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html.md"><i class="bi bi-file-code"></i>CommonMark</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/jchenj/hungarian-ocr/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="core.html.md"><i class="bi bi-file-code"></i>CommonMark</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Hungarian Medical Document Translator</h1>
+<h1 class="title">OCR and Document Processing</h1>
 </div>
 
 <div>
   <div class="description">
-    A privacy-focused tool designed for translating Hungarian medical documents to English, with emphasis on supporting transnational caregiving.
+    Core functionality for secure processing and text extraction from medical documents. This module handles the initial stage of document processing - converting image-based documents into machine-readable text while maintaining privacy and security considerations.
   </div>
 </div>
 
@@ -200,17 +201,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
-<section id="installation" class="level2">
-<h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/your-username/hungarian-medical-translator </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> hungarian-medical-translator </span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-e</span> <span class="st">".[dev]"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+<section id="say_hello" class="level3">
+<h3 class="anchored" data-anchor-id="say_hello">say_hello</h3>
+<blockquote class="blockquote">
+<pre><code> say_hello (to)</code></pre>
+</blockquote>
+<p><em>Say hello to somebody</em></p>
+<div id="cell-3" class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>say_hello(<span class="st">"Ian"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<pre><code>'Hello Ian!'</code></pre>
+</div>
+</div>
+<div id="cell-4" class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">assert</span> say_hello(<span class="st">"Ian"</span>) <span class="op">==</span> <span class="st">"Hello Ian!"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
 </section>
-<section id="useage" class="level2">
-<h2 class="anchored" data-anchor-id="useage">Useage</h2>
-<p>Basic example of loading and processing a document will be added as functionality is developed.</p>
+<section id="doc_loading" class="level3">
+<h3 class="anchored" data-anchor-id="doc_loading">doc_loading</h3>
+<blockquote class="blockquote">
+<pre><code> doc_loading (photo)</code></pre>
+</blockquote>
+<p><em>Loads the photo</em></p>
+<hr>
+<p><a href="https://github.com/jchenj/hungarian-ocr/blob/main/hungarian_ocr/core.py#L9" target="_blank" style="float:right; font-size:smaller">source</a></p>
+</section>
+<section id="foo" class="level3">
+<h3 class="anchored" data-anchor-id="foo">foo</h3>
+<blockquote class="blockquote">
+<pre><code> foo ()</code></pre>
+</blockquote>
 
 
 </section>

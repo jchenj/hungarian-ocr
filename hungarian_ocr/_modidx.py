@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://jchenj.github.io',
                 'git_url': 'https://github.com/jchenj/hungarian-ocr',
                 'lib_path': 'hungarian_ocr'},
-  'syms': {'hungarian_ocr.core': {'hungarian_ocr.core.foo': ('core.html#foo', 'hungarian_ocr/core.py')}}}
+  'syms': { 'hungarian_ocr.core': {'hungarian_ocr.core.foo': ('core.html#foo', 'hungarian_ocr/core.py')},
+            'hungarian_ocr.document_processing': { 'hungarian_ocr.document_processing.doc_loading': ( 'core.html#doc_loading',
+                                                                                                      'hungarian_ocr/document_processing.py'),
+                                                   'hungarian_ocr.document_processing.foo': ( 'core.html#foo',
+                                                                                              'hungarian_ocr/document_processing.py'),
+                                                   'hungarian_ocr.document_processing.say_hello': ( 'core.html#say_hello',
+                                                                                                    'hungarian_ocr/document_processing.py')}}}
